@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Gluten:wght@300&display=swap');
 
 *{
     margin:0;
@@ -8,4 +9,232 @@
 }
 
 /* Fill your code*/
+.header {
+    position: relative;
+  }
+.cakelogo{
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 150px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: contain;
 
+}
+.main-container{
+  background-color:  rgb(105, 33, 33);
+  width: auto;
+  height: 100px;
+}
+
+#bgstyle {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+  }
+#nameplate{
+    object-fit: contain;
+    color: white;
+    padding-left: 45px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Gluten', cursive;
+}
+.content1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(154, 71, 231);
+  }
+  .pic1{
+    width: 240px;
+    height: 301px;
+    object-fit: contain;
+  }
+  .pic2{
+    width: 240px;
+    height: 301px;
+    object-fit: contain;
+  }
+  .menu {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 240px;
+    height: 301px;
+    z-index: 0;
+  }
+  .menu-container {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: 'Architects Daughter';
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
+  .menu-container h3 {
+    padding-left: 2rem;
+    line-height: 2;
+  }
+  
+  .menu-container p {
+    padding-left: 2rem;
+    line-height: 1.5;
+  }
+  .cake {
+    position: absolute;
+    bottom: 20%;
+    width: 245px;
+    left: 40%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bill {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    width: 240px;
+    height: 301px;
+    z-index: 0;
+  }
+  .bill-container {
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: 'Architects Daughter';
+     font-weight: bolder;
+     font-size: 14px;
+     transform: translate(-50%, -50%);
+  }
+  .bill-container h3 {
+    padding-left: 2rem;
+    line-height: 2;
+  }
+  .bill-container p {
+    padding-left: 2rem;
+    line-height: 1.5;
+  }
+  .button:active {
+    background-color: rgb(174, 110, 233);
+    transform: translateY(1px);
+  }
+  .btn-buy {
+    background-color: rgb(167, 241, 28);
+    width: 75px;
+    height: 30px;
+    border-radius: 30%;
+    padding-top: 9px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Acme';
+    font-style: normal;
+  }
+  .button-container {
+    display: flex;
+    padding-top: 20px;
+    top: 5%;
+    left: 5%;
+    width: auto;
+    height: 128px;
+    justify-content: space-around;
+  }
+  .button {
+    width: 95px;
+    height: 30px;
+    border-radius: 30%;
+    cursor: pointer;
+    background-color: white;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 9px;
+    font-family: 'Acme';
+    font-style: normal;
+
+  }
+  .button.active {
+    width: 95px;
+    height: 30px;
+    background-color: rgb(174, 110, 233);
+    line-height: 20px;
+    text-align: center;
+  }
+  #layer1 {
+    width: 245px;
+    height: 50px;
+    visibility: hidden;
+    background-color: brown;
+    color: brown;
+    border-radius: 25%;
+    align-self: center;
+  }
+  
+  #layer2 {
+    width: 200px;
+    height: 50px;
+    left: 40px;
+    visibility: hidden;
+    background-color: rgb(240, 137, 154);
+    border-radius: 25%;
+    color: rgb(240, 137, 154);
+    align-self: center;
+  }
+  
+  #layer3 {
+    width: 160px;
+    height: 50px;
+    left: 60px;
+    visibility: hidden;
+    background-color: rgb(250, 240, 98);
+    border-radius: 25%;
+    color: rgb(250, 240, 98);
+    align-self: center;
+  }
+  
+  #layer4 {
+    width: 120px;
+    height: 50px;
+    left: 80px;
+    visibility: hidden;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    color: whitesmoke;
+    align-self: center;
+  }
+  
+  #layer5 {
+    width: 80px;
+    height: 50px;
+    left: 100px;
+    visibility: hidden;
+    background-color: red;
+    border-radius: 25%;
+    color: red;
+    align-self: center;
+  }
+  #candle {
+    width: 50px;
+    left: 120px;
+    visibility: hidden;
+    align-self: center;
+  }
+  .footer {
+    position: relative;
+    height: 100px;
+    background-color: rgb(105, 33, 33);
+  }
+  
+  
